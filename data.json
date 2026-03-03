@@ -1,38 +1,78 @@
 {
   "site_info": {
-    "title": "骨科壓迫性骨折中心",
-    "description": "專業骨科團隊,提供最詳盡的壓迫性骨折治療資訊"
+    "title": "陳宣佑醫師｜臺大醫院骨科",
+    "description": "國立臺灣大學醫學院附設醫院（臺大醫院）骨科部／骨科創傷團隊；提供骨折創傷、骨質疏鬆與脆弱性骨折等衛教與就醫資訊。"
   },
   "menu": [
-    { "name": "首頁", "link": "index.html" },
-    { 
-      "name": "醫師介紹", 
-      "link": "doctors.html",
+    {
+      "name": "首頁",
+      "link": "index.html"
+    },
+    {
+      "name": "醫師介紹",
+      "link": "doctors.html"
+    },
+    {
+      "name": "病症說明",
+      "link": "disease.html",
       "submenu": [
-        { "name": "陳大衛 醫師", "link": "doctor-1.html" },
-        { "name": "林小美 醫師", "link": "doctor-2.html" }
+        {
+          "name": "關節退化",
+          "link": "condition-joint-degeneration.html"
+        },
+        {
+          "name": "骨質疏鬆",
+          "link": "condition-osteoporosis.html"
+        },
+        {
+          "name": "脊椎損傷",
+          "link": "condition-spine-injury.html"
+        },
+        {
+          "name": "骨折創傷",
+          "link": "condition-fracture-trauma.html"
+        },
+        {
+          "name": "運動健康",
+          "link": "condition-sports-health.html"
+        }
       ]
     },
-    { "name": "疾病介紹", "link": "disease.html" },
-    { "name": "常見問答", "link": "faq.html" },
-    { "name": "就診指南", "link": "guide.html" },
-    { "name": "病友互動", "link": "interaction.html" },
-    { "name": "學術專欄", "link": "academic.html" }
+    {
+      "name": "醫病互動",
+      "link": "interaction.html"
+    },
+    {
+      "name": "醫療諮詢",
+      "link": "consultation.html"
+    },
+    {
+      "name": "常見問題",
+      "link": "faq.html"
+    },
+    {
+      "name": "就醫指南",
+      "link": "guide.html"
+    },
+    {
+      "name": "學術新訊",
+      "link": "academic.html"
+    }
   ],
   "homepage": {
     "hero": {
-      "title": "壓迫性骨折專業照護中心",
-      "subtitle": "提供最先進的微創治療技術與完整的骨質疏鬆照護",
+      "title": "陳宣佑醫師｜骨科創傷與骨質疏鬆照護",
+      "subtitle": "以病人安全與循證醫療為核心，提供骨折創傷與骨質疏鬆相關照護之衛教資訊",
       "image": "src/img/image.jpg"
     },
     "introduction": {
-      "title": "什麼是壓迫性骨折？",
-      "content": "壓迫性骨折是指脊椎骨因為骨質疏鬆或外力撞擊而產生塌陷的情況。這種骨折最常見於老年人,特別是患有骨質疏鬆症的患者。當脊椎骨無法承受正常的垂直壓力時,椎體就會發生壓縮變形。",
+      "title": "門診重點與照護方向",
+      "content": "本網站提供骨折創傷、骨質疏鬆與脆弱性骨折（含脊椎壓迫性骨折）等相關衛教資訊，\n協助您了解常見病症、治療概念與就醫流程。\n※ 本站內容僅供衛教參考，實際診斷與治療仍需由醫師依個別情況評估。",
       "image": "src/img/image.jpg"
     },
     "symptoms": [
       {
-        "icon": "fa-person-falling",
+        "icon": "fa-person-burst",
         "title": "突發性背痛",
         "description": "突然出現的劇烈背部或腰部疼痛,尤其在活動時更為明顯"
       },
@@ -76,111 +116,95 @@
   "doctors": [
     {
       "id": 1,
-      "name": "陳大衛",
-      "title": "骨科部主任 / 醫學博士",
-      "specialty": "微創脊椎手術、壓迫性骨折治療、骨質疏鬆",
-      "image": "src/img/image.jpg",
-      "intro": "陳醫師擁有20年臨床經驗,專精於高齡骨折照護與微創手術。",
+      "name": "陳宣佑",
+      "name_en": "HSUAN-YU CHEN",
+      "title": "國立臺灣大學醫學院附設醫院 骨科部 主治醫師 | 國立臺灣大學 骨科 臨床助理教授",
+      "division": "骨科創傷（Division of Orthopaedic Traumatology）",
+      "specialty": "骨科創傷、骨質疏鬆與脆弱性骨折、脊椎骨折評估",
+      "image": "src/img/hsuan-yu-chen.jpg",
+      "intro": "現任臺大醫院骨科部主治醫師，並於國立臺灣大學擔任臨床助理教授；研究領域包含骨科學與骨質疏鬆。",
+      "contact": {
+        "email": "hychen83@ntu.edu.tw",
+        "orcid": "0000-0003-4998-7566"
+      },
       "education": [
-        "國立陽明交通大學 醫學系 醫學士",
-        "國立陽明交通大學 臨床醫學研究所 醫學博士"
+        "國立臺灣大學 醫學工程研究所 博士（2016/09–2021/06）",
+        "臺北醫學大學 醫學系 學士（2002/09–2009/06）"
+      ],
+      "current_positions": [
+        "國立臺灣大學醫學院附設醫院 骨科部 主治醫師",
+        "國立臺灣大學 骨科 臨床助理教授（2023/08 起）",
+        "中華民國骨質疏鬆症學會 副秘書長（2022/01 起）",
+        "國際骨折內固定學會 臺灣區教師（2023/01 起）",
+        "國立臺灣大學醫學院附設醫院 11B 病房 主任（2023/08 起）",
+        "國立臺灣大學醫學院附設醫院 骨科部 品質管理負責人（2023/08 起）"
       ],
       "experience": [
-        "臺北榮民總醫院 骨科部 主治醫師",
-        "臺北榮民總醫院 骨科部 總醫師",
-        "臺北榮民總醫院 骨科部 住院醫師",
-        "美國約翰霍普金斯醫院 骨科訪問學者"
+        "國立臺灣大學醫學院附設醫院新竹分院 骨科部 主治醫師（2016/08–2021/03）",
+        "國立臺灣大學醫學院附設醫院 骨科部 研修醫師（2015/08–2016/07）",
+        "國立臺灣大學醫學院附設醫院 骨科部 住院醫師（2010/08–2015/07）",
+        "泰國骨科創傷年會 TOTAC2024 Traveling Fellow（2024/02）",
+        "日本骨科創傷研究財團／日本骨科協會 JOA 年會（第 90 屆）（2017/05）"
       ],
-      "certifications": [
-        "中華民國骨科專科醫師",
-        "中華民國脊椎外科醫學會專科醫師",
-        "骨質疏鬆症專科醫師"
-      ],
+      "achievements": {
+        "patents": [
+          "X 光影像分析儀器（專利證號 M624947）",
+          "穿戴式脊椎量測輔助裝置（專利證號 I819942）"
+        ],
+        "awards": [
+          "North American Spine Society (NASS 2020) Best papers（2020）",
+          "台灣脊椎外科醫學會第 28 次學術研討會 優秀論文競賽佳作（2020）",
+          "臺北醫學大學暨部立雙和醫院一般醫學教師培育訓練 指導教學討論會影片競賽第三名（2020）",
+          "中華民國骨質疏鬆症學會論文競賽第三名（2021）",
+          "中華民國骨質疏鬆症學會青年傑出研究獎第二名（2022）",
+          "Asian Federation of Osteoporosis Societies (AFOS 2023) Presidential Award second place（2023）",
+          "IEEE ECBIOS 2024 Best papers（2024）",
+          "Harvard Innovation Lab President’s Innovation Challenge 健康與生命科學組半決賽入圍（2025）"
+        ],
+        "reviewer": [
+          "Journal of the Formosan Medical Association",
+          "European Spine Journal",
+          "Journal of Orthopaedic Surgery and Research"
+        ]
+      },
+      "certifications": [],
       "expertise": [
-        "脊椎微創手術",
-        "壓迫性骨折治療",
-        "骨水泥灌注手術",
-        "骨質疏鬆症治療",
-        "脊椎退化性疾病"
+        "骨折與創傷照護（骨科創傷）",
+        "骨質疏鬆與脆弱性骨折之風險評估與衛教",
+        "脊椎相關骨折之影像評估與量測"
       ],
-      "publications": [
-        {
-          "title": "Minimally Invasive Treatment of Osteoporotic Vertebral Compression Fractures",
-          "journal": "Spine Journal",
-          "year": "2023",
-          "type": "research"
-        },
-        {
-          "title": "Long-term Outcomes of Balloon Kyphoplasty in Elderly Patients",
-          "journal": "Journal of Bone and Joint Surgery",
-          "year": "2022",
-          "type": "research"
-        },
-        {
-          "title": "骨質疏鬆性骨折的預防與治療",
-          "journal": "台灣骨科醫學雜誌",
-          "year": "2023",
-          "type": "review"
-        },
-        {
-          "title": "微創脊椎手術的新進展",
-          "journal": "中華民國骨科醫學會年會",
-          "year": "2022",
-          "type": "conference"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "林小美",
-      "title": "主治醫師",
-      "specialty": "一般骨科、復健治療",
-      "image": "src/img/image.jpg",
-      "intro": "林醫師致力於術後復健與病患衛教,親切細心。",
-      "education": [
-        "臺北醫學大學 醫學系 醫學士",
-        "臺灣大學 復健醫學研究所 碩士"
-      ],
-      "experience": [
-        "臺北榮民總醫院 骨科部 主治醫師",
-        "臺北榮民總醫院 復健醫學部 研修醫師",
-        "長庚醫院 骨科部 住院醫師"
-      ],
-      "certifications": [
-        "中華民國骨科專科醫師",
-        "中華民國復健科專科醫師"
-      ],
-      "expertise": [
-        "骨折術後復健",
-        "運動傷害治療",
-        "退化性關節炎",
-        "物理治療規劃"
-      ],
-      "publications": [
-        {
-          "title": "Rehabilitation Protocol After Vertebral Compression Fracture Surgery",
-          "journal": "Physical Therapy Journal",
-          "year": "2023",
-          "type": "research"
-        },
-        {
-          "title": "骨折術後復健的重要性",
-          "journal": "復健醫學雜誌",
-          "year": "2022",
-          "type": "review"
-        },
-        {
-          "title": "高齡患者的骨折預防策略",
-          "journal": "老年醫學會年會",
-          "year": "2023",
-          "type": "conference"
-        }
-      ]
+      "publications": []
     }
   ],
   "disease_info": {
-    "title": "什麼是壓迫性骨折？",
-    "content": "<p>壓迫性骨折常見於骨質疏鬆的患者。當脊椎骨無法承受垂直壓力時，椎體會發生塌陷。</p><h4>常見症狀：</h4><ul><li>背部劇烈疼痛</li><li>身高變矮、駝背</li><li>活動受限</li></ul>"
+    "title": "病症說明",
+    "categories": [
+      {
+        "id": "joint-degeneration",
+        "name": "關節退化",
+        "content": "* 關節退化（常見如退化性關節炎）多與**年齡**、過度使用、受傷史等相關，可能造成疼痛、僵硬與活動受限。\n\n※ 本段落為衛教摘要，請以門診評估為準。"
+      },
+      {
+        "id": "osteoporosis",
+        "name": "骨質疏鬆",
+        "content": "骨質疏鬆會使骨骼強度下降，增加跌倒或輕微外力後骨折的風險（如髖部、手腕、脊椎壓迫性骨折）。\n\n※ 本段落為衛教摘要，請以門診評估為準。"
+      },
+      {
+        "id": "spine-injury",
+        "name": "脊椎損傷",
+        "content": "脊椎損傷可能來自外傷、退化或骨質疏鬆相關骨折，常見症狀包含背痛、活動受限，嚴重者可能合併神經症狀（麻木、無力）。\n\n若出現進行性無力、大小便控制困難或嚴重外傷後疼痛，建議立即就醫。"
+      },
+      {
+        "id": "fracture-trauma",
+        "name": "骨折創傷",
+        "content": "骨折創傷的治療目標包含疼痛控制、穩定骨折、恢復功能與降低併發症；治療方式需依骨折型態、位移程度與個人狀況評估。\n\n※ 本段落為衛教摘要，請以門診評估為準。"
+      },
+      {
+        "id": "sports-health",
+        "name": "運動健康",
+        "content": "規律運動有助於肌力、平衡與骨骼健康。若運動後出現持續疼痛、腫脹或功能受限，建議及早評估，避免傷勢惡化。\n\n※ 本段落為衛教摘要，請以門診評估為準。"
+      }
+    ]
   },
   "interaction": [
     {
@@ -210,48 +234,50 @@
   },
   "academic": [
     {
-      "title": "最新微創脊椎手術臨床研究發表",
-      "date": "2023-11-15",
-      "journal": "國際骨科期刊",
-      "link": "https://example.com/article1"
-    },
-    {
-      "title": "骨質疏鬆藥物對於骨折癒合的影響",
-      "date": "2023-09-20",
-      "journal": "台灣醫學會雜誌",
-      "link": "https://example.com/article2"
+      "title": "學術新訊（建置中）",
+      "date": "",
+      "journal": "",
+      "link": ""
     }
   ],
   "contact_info": {
-    "email": "example@gmail.com",
-    "phone": "0900-123-456",
-    "line": "@samChen(無法反時間請見諒)"
+    "email": "hychen83@ntu.edu.tw",
+    "phone": "",
+    "line": ""
   },
   "related_links": [
     {
-      "name": "台北榮總骨骼肌肉腫瘤研究中心",
-      "url": "https://example.com/link1",
+      "name": "國立臺灣大學醫學院附設醫院（臺大醫院）",
+      "url": "",
       "icon": "fa-hospital"
     },
     {
-      "name": "中華民國骨肉癌關懷協會",
-      "url": "https://example.com/link2",
-      "icon": "fa-users"
+      "name": "國立臺灣大學（NTU）",
+      "url": "",
+      "icon": "fa-building-columns"
     },
     {
-      "name": "臺北榮民總醫院骨節重建科",
-      "url": "https://example.com/link3",
-      "icon": "fa-building"
+      "name": "ORCID：0000-0003-4998-7566",
+      "url": "",
+      "icon": "fa-id-card"
     }
   ],
   "schedule": [
     {
-      "day": "星期二上午",
-      "link": "https://example.com/appointment"
-    },
-    {
-      "day": "星期四上午",
-      "link": "https://example.com/appointment"
+      "day": "門診時間",
+      "link": "",
+      "note": "請以臺大醫院掛號系統公告為準"
     }
-  ]
+  ],
+  "consultation": {
+    "title": "醫療諮詢",
+    "description": "若您有就醫前的準備問題（如該攜帶哪些影像、何時需要就醫等），可透過 Email 聯繫。",
+    "channels": [
+      {
+        "type": "email",
+        "value": "hychen83@ntu.edu.tw"
+      }
+    ],
+    "disclaimer": "為保障病人安全與隱私，Email 不提供緊急醫療建議；若有急症或嚴重不適，請立即就近就醫或撥打緊急電話。"
+  }
 }

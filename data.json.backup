@@ -1,0 +1,257 @@
+{
+  "site_info": {
+    "title": "骨科壓迫性骨折中心",
+    "description": "專業骨科團隊,提供最詳盡的壓迫性骨折治療資訊"
+  },
+  "menu": [
+    { "name": "首頁", "link": "index.html" },
+    { 
+      "name": "醫師介紹", 
+      "link": "doctors.html",
+      "submenu": [
+        { "name": "陳大衛 醫師", "link": "doctor-1.html" },
+        { "name": "林小美 醫師", "link": "doctor-2.html" }
+      ]
+    },
+    { "name": "疾病介紹", "link": "disease.html" },
+    { "name": "常見問答", "link": "faq.html" },
+    { "name": "就診指南", "link": "guide.html" },
+    { "name": "病友互動", "link": "interaction.html" },
+    { "name": "學術專欄", "link": "academic.html" }
+  ],
+  "homepage": {
+    "hero": {
+      "title": "壓迫性骨折專業照護中心",
+      "subtitle": "提供最先進的微創治療技術與完整的骨質疏鬆照護",
+      "image": "src/img/image.jpg"
+    },
+    "introduction": {
+      "title": "什麼是壓迫性骨折？",
+      "content": "壓迫性骨折是指脊椎骨因為骨質疏鬆或外力撞擊而產生塌陷的情況。這種骨折最常見於老年人,特別是患有骨質疏鬆症的患者。當脊椎骨無法承受正常的垂直壓力時,椎體就會發生壓縮變形。",
+      "image": "src/img/image.jpg"
+    },
+    "symptoms": [
+      {
+        "icon": "fa-person-burst",
+        "title": "突發性背痛",
+        "description": "突然出現的劇烈背部或腰部疼痛,尤其在活動時更為明顯"
+      },
+      {
+        "icon": "fa-ruler-vertical",
+        "title": "身高變矮",
+        "description": "因椎體塌陷導致身高明顯降低,可能在短時間內矮了數公分"
+      },
+      {
+        "icon": "fa-person-cane",
+        "title": "駝背變形",
+        "description": "脊椎因多節椎體塌陷而產生駝背,影響外觀與生活品質"
+      },
+      {
+        "icon": "fa-bed",
+        "title": "活動受限",
+        "description": "疼痛導致日常活動困難,可能需要臥床休息或使用輔具"
+      }
+    ],
+    "treatments": {
+      "title": "治療方式",
+      "options": [
+        {
+          "name": "保守治療",
+          "description": "輕微骨折可透過臥床休息、穿戴背架、藥物止痛等方式治療",
+          "duration": "6-12週"
+        },
+        {
+          "name": "骨水泥灌注術",
+          "description": "經皮椎體成形術(PVP)或球囊擴張椎體成形術(BKP),微創手術注入骨水泥穩定椎體",
+          "duration": "術後1-2天即可下床"
+        },
+        {
+          "name": "骨質疏鬆治療",
+          "description": "配合藥物治療骨質疏鬆,預防再次骨折發生",
+          "duration": "長期治療"
+        }
+      ]
+    }
+  },
+  "doctors": [
+    {
+      "id": 1,
+      "name": "陳大衛",
+      "title": "骨科部主任 / 醫學博士",
+      "specialty": "微創脊椎手術、壓迫性骨折治療、骨質疏鬆",
+      "image": "src/img/image.jpg",
+      "intro": "陳醫師擁有20年臨床經驗,專精於高齡骨折照護與微創手術。",
+      "education": [
+        "國立陽明交通大學 醫學系 醫學士",
+        "國立陽明交通大學 臨床醫學研究所 醫學博士"
+      ],
+      "experience": [
+        "臺北榮民總醫院 骨科部 主治醫師",
+        "臺北榮民總醫院 骨科部 總醫師",
+        "臺北榮民總醫院 骨科部 住院醫師",
+        "美國約翰霍普金斯醫院 骨科訪問學者"
+      ],
+      "certifications": [
+        "中華民國骨科專科醫師",
+        "中華民國脊椎外科醫學會專科醫師",
+        "骨質疏鬆症專科醫師"
+      ],
+      "expertise": [
+        "脊椎微創手術",
+        "壓迫性骨折治療",
+        "骨水泥灌注手術",
+        "骨質疏鬆症治療",
+        "脊椎退化性疾病"
+      ],
+      "publications": [
+        {
+          "title": "Minimally Invasive Treatment of Osteoporotic Vertebral Compression Fractures",
+          "journal": "Spine Journal",
+          "year": "2023",
+          "type": "research"
+        },
+        {
+          "title": "Long-term Outcomes of Balloon Kyphoplasty in Elderly Patients",
+          "journal": "Journal of Bone and Joint Surgery",
+          "year": "2022",
+          "type": "research"
+        },
+        {
+          "title": "骨質疏鬆性骨折的預防與治療",
+          "journal": "台灣骨科醫學雜誌",
+          "year": "2023",
+          "type": "review"
+        },
+        {
+          "title": "微創脊椎手術的新進展",
+          "journal": "中華民國骨科醫學會年會",
+          "year": "2022",
+          "type": "conference"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "林小美",
+      "title": "主治醫師",
+      "specialty": "一般骨科、復健治療",
+      "image": "src/img/image.jpg",
+      "intro": "林醫師致力於術後復健與病患衛教,親切細心。",
+      "education": [
+        "臺北醫學大學 醫學系 醫學士",
+        "臺灣大學 復健醫學研究所 碩士"
+      ],
+      "experience": [
+        "臺北榮民總醫院 骨科部 主治醫師",
+        "臺北榮民總醫院 復健醫學部 研修醫師",
+        "長庚醫院 骨科部 住院醫師"
+      ],
+      "certifications": [
+        "中華民國骨科專科醫師",
+        "中華民國復健科專科醫師"
+      ],
+      "expertise": [
+        "骨折術後復健",
+        "運動傷害治療",
+        "退化性關節炎",
+        "物理治療規劃"
+      ],
+      "publications": [
+        {
+          "title": "Rehabilitation Protocol After Vertebral Compression Fracture Surgery",
+          "journal": "Physical Therapy Journal",
+          "year": "2023",
+          "type": "research"
+        },
+        {
+          "title": "骨折術後復健的重要性",
+          "journal": "復健醫學雜誌",
+          "year": "2022",
+          "type": "review"
+        },
+        {
+          "title": "高齡患者的骨折預防策略",
+          "journal": "老年醫學會年會",
+          "year": "2023",
+          "type": "conference"
+        }
+      ]
+    }
+  ],
+  "disease_info": {
+    "title": "什麼是壓迫性骨折？",
+    "content": "<p>壓迫性骨折常見於骨質疏鬆的患者。當脊椎骨無法承受垂直壓力時，椎體會發生塌陷。</p><h4>常見症狀：</h4><ul><li>背部劇烈疼痛</li><li>身高變矮、駝背</li><li>活動受限</li></ul>"
+  },
+  "interaction": [
+    {
+      "title": "病友張女士的康復故事",
+      "date": "2023-10-01",
+      "summary": "張女士因跌倒導致腰椎骨折，經過骨水泥治療後，第二天即可下床行走..."
+    }
+  ],
+  "faq": [
+    {
+      "question": "壓迫性骨折一定要開刀嗎？",
+      "answer": "不一定。輕微者可透過臥床休息與穿戴背架治療，嚴重或疼痛無法緩解者才建議手術。"
+    },
+    {
+      "question": "手術後多久可以恢復？",
+      "answer": "微創骨水泥手術通常術後隔天即可穿背架下床活動。"
+    }
+  ],
+  "guide": {
+    "steps": [
+      "網路或電話掛號",
+      "攜帶健保卡至櫃檯報到",
+      "診間看診與X光檢查",
+      "醫師解說病情與治療方案"
+    ],
+    "note": "請記得攜帶過往的影像光碟供醫師參考。"
+  },
+  "academic": [
+    {
+      "title": "最新微創脊椎手術臨床研究發表",
+      "date": "2023-11-15",
+      "journal": "國際骨科期刊",
+      "link": "https://example.com/article1"
+    },
+    {
+      "title": "骨質疏鬆藥物對於骨折癒合的影響",
+      "date": "2023-09-20",
+      "journal": "台灣醫學會雜誌",
+      "link": "https://example.com/article2"
+    }
+  ],
+  "contact_info": {
+    "email": "example@gmail.com",
+    "phone": "0900-123-456",
+    "line": "@samChen(無法反時間請見諒)"
+  },
+  "related_links": [
+    {
+      "name": "台北榮總骨骼肌肉腫瘤研究中心",
+      "url": "https://example.com/link1",
+      "icon": "fa-hospital"
+    },
+    {
+      "name": "中華民國骨肉癌關懷協會",
+      "url": "https://example.com/link2",
+      "icon": "fa-users"
+    },
+    {
+      "name": "臺北榮民總醫院骨節重建科",
+      "url": "https://example.com/link3",
+      "icon": "fa-building"
+    }
+  ],
+  "schedule": [
+    {
+      "day": "星期二上午",
+      "link": "https://example.com/appointment"
+    },
+    {
+      "day": "星期四上午",
+      "link": "https://example.com/appointment"
+    }
+  ]
+}
